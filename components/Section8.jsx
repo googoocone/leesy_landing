@@ -89,11 +89,11 @@ const Section8 = () => {
             <br />
             회생위원을 직접 설득하는 것이 굉장히 중요합니다.
           </div>
-          <div className="text-[32px] text-center font-semibold text-black mb-20 relative w-full ">
+          <div className="text-[32px] text-center font-semibold text-black mb-20 relative w-[980px] ">
             기각이 될 사건도 가능하게 만드는 것은
             <br />
             변호사의 정성과 노력입니다.
-            <div className="w-[270px] h-[10px] bg-[#ffc5c7]/80 absolute left-[365px] bottom-1 "></div>
+            <div className="w-[270px] h-[10px] bg-[#ffc5c7]/80 absolute left-[305px] bottom-1 "></div>
           </div>
           <div className="w-full max-w-2xl lg:max-w-3xl mx-auto rounded-lg overflow-hidden shadow-xl border border-gray-200">
             <div className="aspect-video">
