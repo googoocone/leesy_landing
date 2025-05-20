@@ -98,7 +98,7 @@ const Section6 = () => {
           <button
             key={item}
             onClick={() => handleNavClick(item)}
-            className={`px-4 py-2 md:px-5 md:py-3 rounded-full text-sm md:text-base transition-colors duration-200 ease-in-out
+            className={`px-4 py-2 md:px-5 md:py-3 rounded-full text-sm md:text-base transition-colors duration-200 ease-in-out cursor-pointer
               ${
                 selectedCategory === item
                   ? "bg-[#d81c25] text-white" // 선택된 버튼 스타일
@@ -122,7 +122,7 @@ const Section6 = () => {
             pagination={{ clickable: true }} // 페이지네이션 버튼 활성화 및 클릭 가능
             loop={currentSlides.length > 1}
             centeredSlides={true}
-            className="mySwiper" // 필요시 커스텀 CSS를 위한 클래스명
+            className="mySwiper px-24" // 필요시 커스텀 CSS를 위한 클래스명
           >
             {currentSlides.map((slide, index) => (
               <SwiperSlide key={`${selectedCategory}-${index}`} className="p-1">
@@ -205,7 +205,7 @@ const Section6 = () => {
                     {slide.desc.split(" ")[1] == "남성" ? (
                       <Image
                         src="/man.png"
-                        width={80}
+                        width={115}
                         height={120}
                         alt="회생파산연구소의뢰인"
                       ></Image>

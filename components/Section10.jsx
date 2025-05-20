@@ -6,7 +6,7 @@ const Section10 = () => {
     <>
       <div className="hidden w-full h-[900px] bg-[#f7f7f7] sm:flex items-center justify-center relative">
         <div className="w-[854px] h-[618px] relative">
-          <Image src="/lawyer.svg" width={854} height={618}></Image>
+          <Image src="/lawyer4.svg" width={854} height={618}></Image>
           <Image
             src="/sign.svg"
             width={144}

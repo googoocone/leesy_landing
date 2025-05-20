@@ -84,3 +84,11 @@ body {
 .hide-scrollbar {
   scrollbar-width: none;
 }
+
+.map-default-color {
+  color: #f7f7f7 !important; /* 기본 색상 */
+}
+
+.map-selected-color {
+  color: #FF6347 !important; /* 선택 시 변경될 색상 (예: 토마토색) */
+}

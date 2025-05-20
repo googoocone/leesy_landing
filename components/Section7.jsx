@@ -74,14 +74,14 @@ const Section7 = () => {
         <div className="hidden sm:block sm:text-[24px] sm:text-4xl md:text-[40px] font-normal leading-tight">
           저의
           <span className="text-[#ef555c] font-semibold">
-            <span>10</span>년간의 노하우와 지식
+            <span> 10</span>년간의 노하우와 지식
           </span>
           을 유튜브 영상에 담았습니다
         </div>
         <div className="sm:hidden text-[24px]  font-normal leading-tight">
           저의
           <span className="text-[#ef555c] font-semibold">
-            <span>10</span>년간의 노하우와 지식
+            <span> 10</span>년간의 노하우와 지식
           </span>
           을<br /> 유튜브 영상에 담았습니다
         </div>

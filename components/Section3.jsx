@@ -5,7 +5,12 @@ import { motion } from "framer-motion";
 
 const slideIn = {
   hidden: { width: 0 },
-  visible: { width: "100%", transition: { duration: 0.8, ease: "easeInOut" } },
+  visible: { width: "190px", transition: { duration: 0.8, ease: "easeInOut" } },
+};
+
+const slideInMb = {
+  hidden: { width: 0 },
+  visible: { width: "118px", transition: { duration: 0.8, ease: "easeInOut" } },
 };
 
 const Section3 = () => {
@@ -31,8 +36,8 @@ const Section3 = () => {
           whileInView="visible"
           variants={slideIn}
           viewport={{ once: true, amount: 0.6 }}
-          className="absolute bottom-2 left-0 h-2 bg-[#ef555c]/80"
-          style={{ width: "120px" }} // 초기 넓이 설정 (visible 상태에서는 100% 됨)
+          className="w-20 absolute bottom-2 left-42 h-2 bg-[#ef555c]/80"
+          style={{ width: "40px" }} // 초기 넓이 설정 (visible 상태에서는 100% 됨)
         />
       </div>
       <div className="sm:hidden mt-20 text-[24px] sm:text-[40px] text-white font-semibold relative overflow-hidden">
@@ -43,10 +48,10 @@ const Section3 = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          variants={slideIn}
+          variants={slideInMb}
           viewport={{ once: true, amount: 0.6 }}
           className="absolute bottom-0.5 left-0 h-2 bg-[#ef555c]/80"
-          style={{ width: "120px" }} // 초기 넓이 설정 (visible 상태에서는 100% 됨)
+          style={{ width: "40px" }} // 초기 넓이 설정 (visible 상태에서는 100% 됨)
         />
       </div>
     </div>

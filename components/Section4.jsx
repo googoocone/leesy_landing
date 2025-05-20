@@ -38,7 +38,7 @@ const Section4 = () => {
           단, <span className="text-[#d81c25]">평균 탕감률 62.55%</span>는
           지속적으로 달성하고 있습니다
         </div>
-        <div className="text-sm">(2025년 5월 15일 기준)</div>
+        <div className="text-sm">(2025년 5월 20일 기준)</div>
         {/* caseData 대신 STATIC_CASE_DATA 사용 */}
         <div className="flex-1 overflow-y-auto text-sm mt-20 text-gray-800">
           <Success_yscroll></Success_yscroll>
@@ -52,7 +52,7 @@ const Section4 = () => {
           단, <span className="text-[#d81c25]">평균 탕감률 62.55%</span>는<br />
           지속적으로 달성하고 있습니다
         </div>
-        <div className="text-sm">(2025년 5월 15일 기준)</div>
+        <div className="text-sm">(2025년 5월 20일 기준)</div>
         {/* caseData 대신 STATIC_CASE_DATA 사용 */}
         <div className="w-full flex-1 overflow-y-auto text-sm mt-20 text-gray-800">
           <Success_yscroll></Success_yscroll>

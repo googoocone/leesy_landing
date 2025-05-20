@@ -86,6 +86,78 @@ const Slide_desc = () => {
           ></Image>
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success6.png"
+            width={479}
+            height={664}
+            alt="성공 사례 6"
+          ></Image>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success7.png"
+            width={479}
+            height={664}
+            alt="성공 사례 7"
+          ></Image>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success8.png"
+            width={479}
+            height={664}
+            alt="성공 사례 8"
+          ></Image>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success9.png"
+            width={479}
+            height={664}
+            alt="성공 사례 9"
+          ></Image>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success10.png"
+            width={479}
+            height={664}
+            alt="성공 사례 10"
+          ></Image>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {/* 다섯 번째 슬라이드 내용 */}
+        <div className="flex items-center justify-center h-full text-2xl">
+          <Image
+            className="shadow-lg rounded-md"
+            src="/success11.png"
+            width={479}
+            height={664}
+            alt="성공 사례 11"
+          ></Image>
+        </div>
+      </SwiperSlide>
       {/* 필요에 따라 SwiperSlide를 더 추가하세요. */}
     </Swiper>
   );
