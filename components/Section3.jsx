@@ -30,18 +30,21 @@ const Section3 = () => {
         </div>
       </div>
       <div className="hidden sm:block mt-20 text-[40px] text-white font-semibold relative overflow-hidden">
-        <div className="z-10">지금 부터 있는 그대로 보여드리겠습니다</div>
+        {/* 텍스트를 감싸는 div에 'relative' 클래스를 추가하여 z-index가 올바르게 작동하도록 합니다. */}
+        <div className="relative z-10">
+          지금 부터 있는 그대로 보여드리겠습니다
+        </div>
         <motion.div
           initial="hidden"
           whileInView="visible"
           variants={slideIn}
           viewport={{ once: true, amount: 0.6 }}
-          className="w-20 absolute bottom-2 left-42 h-2 bg-[#ef555c]/80"
+          className="w-20 absolute bottom-2 left-42 h-2 bg-[#ef555c]/100"
           style={{ width: "40px" }} // 초기 넓이 설정 (visible 상태에서는 100% 됨)
         />
       </div>
       <div className="sm:hidden mt-20 text-[24px] sm:text-[40px] text-white font-semibold relative overflow-hidden">
-        <div className="z-10 text-center">
+        <div className="z-10 text-center relative">
           지금 부터
           <br /> 있는 그대로 보여드리겠습니다
         </div>

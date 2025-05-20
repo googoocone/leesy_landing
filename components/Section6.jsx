@@ -126,52 +126,54 @@ const Section6 = () => {
           >
             {currentSlides.map((slide, index) => (
               <SwiperSlide key={`${selectedCategory}-${index}`} className="p-1">
-                <div className="bg-[#f7f7f7] p-6 rounded-lg shadow-md w-full sm:w-[847px] min-h-[550px] flex flex-col items-center justify-center gap-10 cursor-pointer hover:bg-gray-200">
-                  <div className="flex flex-col items-center justify-center">
-                    {slide.desc.split(" ")[1] == "남성" ? (
-                      <Image
-                        src="/man.png"
-                        width={140}
-                        height={120}
-                        alt="회생파산연구소의뢰인"
-                      ></Image>
-                    ) : (
-                      <Image
-                        src="/girl.png"
-                        width={120}
-                        height={120}
-                        alt="회생파산연구소의뢰인"
-                      ></Image>
-                    )}
-                    <div className="text-[40px] text-[#ef555c] mt-5 font-semibold">
-                      회생파산연구소 의뢰인
+                <a href={slide.url} target="_blank">
+                  <div className="bg-[#f7f7f7] p-6 rounded-lg shadow-md w-full sm:w-[847px] min-h-[550px] flex flex-col items-center justify-center gap-10 cursor-pointer hover:bg-gray-200">
+                    <div className="flex flex-col items-center justify-center">
+                      {slide.desc.split(" ")[1] == "남성" ? (
+                        <Image
+                          src="/man.png"
+                          width={140}
+                          height={120}
+                          alt="회생파산연구소의뢰인"
+                        ></Image>
+                      ) : (
+                        <Image
+                          src="/girl.png"
+                          width={120}
+                          height={120}
+                          alt="회생파산연구소의뢰인"
+                        ></Image>
+                      )}
+                      <div className="text-[40px] text-[#ef555c] mt-5 font-semibold">
+                        회생파산연구소 의뢰인
+                      </div>
+                      <div className="text-[24px] text-[#5e5959]">
+                        {slide.name} {slide.desc}
+                      </div>
                     </div>
-                    <div className="text-[24px] text-[#5e5959]">
-                      {slide.name} {slide.desc}
+                    <div className="w-full flex items-center justify-center text-[24px]">
+                      <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
+                        <div>직업</div>
+                        <div className="text-[#5e5959]">{slide.job}</div>
+                      </div>
+                      <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
+                      <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
+                        <div>거주지</div>
+                        <div className="text-[#5e5959]">{slide.loc}</div>
+                      </div>
+                      <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
+                      <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
+                        <div>월소득</div>
+                        <div className="text-[#5e5959]">{slide.income}</div>
+                      </div>
+                      <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
+                      <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
+                        <div>총채무</div>
+                        <div className="text-[#5e5959]">{slide.debt}</div>
+                      </div>
                     </div>
                   </div>
-                  <div className="w-full flex items-center justify-center text-[24px]">
-                    <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
-                      <div>직업</div>
-                      <div className="text-[#5e5959]">{slide.job}</div>
-                    </div>
-                    <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
-                    <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
-                      <div>거주지</div>
-                      <div className="text-[#5e5959]">{slide.loc}</div>
-                    </div>
-                    <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
-                    <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
-                      <div>월소득</div>
-                      <div className="text-[#5e5959]">{slide.income}</div>
-                    </div>
-                    <div className="w-[1px] h-[60px] mx-5 bg-gray-500"></div>
-                    <div className="w-[160px] h-[80px] flex flex-col items-center justify-center">
-                      <div>총채무</div>
-                      <div className="text-[#5e5959]">{slide.debt}</div>
-                    </div>
-                  </div>
-                </div>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -200,52 +202,54 @@ const Section6 = () => {
                 key={`${selectedCategory}-${index}`}
                 className="p-1 h-[340px]"
               >
-                <div className="bg-[#f7f7f7] p-6 rounded-lg shadow-md w-full sm:w-[847px] min-h-[340px] flex flex-col items-center justify-center gap-10 cursor-pointer hover:bg-gray-200">
-                  <div className="flex flex-col items-center justify-center">
-                    {slide.desc.split(" ")[1] == "남성" ? (
-                      <Image
-                        src="/man.png"
-                        width={115}
-                        height={120}
-                        alt="회생파산연구소의뢰인"
-                      ></Image>
-                    ) : (
-                      <Image
-                        src="/girl.png"
-                        width={100}
-                        height={120}
-                        alt="회생파산연구소의뢰인"
-                      ></Image>
-                    )}
-                    <div className="text-[24px] text-[#ef555c] mt-5 font-semibold">
-                      회생파산연구소 의뢰인
+                <a href={slide.url} target="_blank">
+                  <div className="bg-[#f7f7f7] p-6 rounded-lg shadow-md w-full sm:w-[847px] min-h-[340px] flex flex-col items-center justify-center gap-10 cursor-pointer hover:bg-gray-200">
+                    <div className="flex flex-col items-center justify-center">
+                      {slide.desc.split(" ")[1] == "남성" ? (
+                        <Image
+                          src="/man.png"
+                          width={115}
+                          height={120}
+                          alt="회생파산연구소의뢰인"
+                        ></Image>
+                      ) : (
+                        <Image
+                          src="/girl.png"
+                          width={100}
+                          height={120}
+                          alt="회생파산연구소의뢰인"
+                        ></Image>
+                      )}
+                      <div className="text-[24px] text-[#ef555c] mt-5 font-semibold">
+                        회생파산연구소 의뢰인
+                      </div>
+                      <div className="text-[16px] text-[#5e5959]">
+                        {slide.name} {slide.desc}
+                      </div>
                     </div>
-                    <div className="text-[16px] text-[#5e5959]">
-                      {slide.name} {slide.desc}
+                    <div className="w-full flex items-center justify-center text-[16px]">
+                      <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
+                        <div>직업</div>
+                        <div className="text-[#5e5959]">{slide.job}</div>
+                      </div>
+                      <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
+                      <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
+                        <div>거주지</div>
+                        <div className="text-[#5e5959]">{slide.loc}</div>
+                      </div>
+                      <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
+                      <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
+                        <div>월소득</div>
+                        <div className="text-[#5e5959]">{slide.income}</div>
+                      </div>
+                      <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
+                      <div className="w-[95px] h-[50px] flex flex-col items-center justify-center">
+                        <div>총채무</div>
+                        <div className="text-[#5e5959]">{slide.debt}</div>
+                      </div>
                     </div>
                   </div>
-                  <div className="w-full flex items-center justify-center text-[16px]">
-                    <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
-                      <div>직업</div>
-                      <div className="text-[#5e5959]">{slide.job}</div>
-                    </div>
-                    <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
-                    <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
-                      <div>거주지</div>
-                      <div className="text-[#5e5959]">{slide.loc}</div>
-                    </div>
-                    <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
-                    <div className="w-[75px] h-[50px] flex flex-col items-center justify-center">
-                      <div>월소득</div>
-                      <div className="text-[#5e5959]">{slide.income}</div>
-                    </div>
-                    <div className="w-[1px] h-[40px] mx-2 bg-gray-400"></div>
-                    <div className="w-[95px] h-[50px] flex flex-col items-center justify-center">
-                      <div>총채무</div>
-                      <div className="text-[#5e5959]">{slide.debt}</div>
-                    </div>
-                  </div>
-                </div>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>

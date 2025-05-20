@@ -10,7 +10,7 @@ const SuccessCaseTable = () => {
   const scrollRef = useRef(null);
   // isHovering 초기값을 false로 변경하여 처음부터 스크롤이 시작되도록 합니다.
   const [isHovering, setIsHovering] = useState(false);
-  const gridColsClass = "grid-cols-[1fr_1.5fr_1fr_1.2fr_1.5fr_1.2fr]";
+  const gridColsClass = "grid-cols-[1fr_1.5fr_1fr_1.2fr_1.5fr]";
 
   // isHovering 상태 변경 시 콘솔에 로그 출력 (디버깅용)
   // console.log("isHovering state:", isHovering);
@@ -78,7 +78,7 @@ const SuccessCaseTable = () => {
         <div className="text-center">법원</div>
         <div className="text-center">이름</div>
         <div className="text-center">인가결정</div>
-        <div className="text-center">변제금</div>
+
         <div className="text-center">탕감률</div>
       </div>
 
@@ -106,9 +106,7 @@ const SuccessCaseTable = () => {
             <div className="text-center text-xs sm:text-lg my-auto">
               {item.decision}
             </div>
-            <div className="text-center text-xs sm:text-lg my-auto">
-              {item.repaymentAmount}
-            </div>
+
             <div className="text-center text-xs sm:text-lg my-auto">
               {item.repaymentRate}
             </div>
