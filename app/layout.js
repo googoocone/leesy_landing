@@ -1,6 +1,7 @@
 import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/footer";
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${notoSansKR.className} antialiased`}>
         <Header></Header>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );

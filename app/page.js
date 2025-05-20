@@ -1,3 +1,4 @@
+import FloatingCallButton from "@/components/FloatingCallButton";
 import Section1 from "@/components/Section1";
 import Section10 from "@/components/Section10";
 import Section2 from "@/components/Section2";
@@ -22,6 +23,7 @@ export default function Home() {
       <Section8></Section8>
       <Section9></Section9>
       <Section10></Section10>
+      <FloatingCallButton></FloatingCallButton>
     </>
   );
 }
