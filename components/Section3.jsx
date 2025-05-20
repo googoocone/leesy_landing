@@ -16,10 +16,15 @@ const slideInMb = {
 const Section3 = () => {
   return (
     <div className="w-full h-[554px] sm:h-[530px] bg-[#202020] flex flex-col items-center justify-center">
-      <div className="text-white text-center text-[20px] sm:text-[24px] w-[270px] sm:w-full">
-        <div className="mb-4">
+      <div className="text-white text-center text-[20px] sm:text-[24px] w-[290px] sm:w-full">
+        <div className="mb-4 hidden sm:block">
           누구나 <strong>탕감률 90%</strong>를 받을 수 있단 광고 메시지에 속아
         </div>
+        <div className="mb-4 sm:hidden">
+          누구나 <strong>탕감률 90%</strong>를 받을 수 있단 <br />
+          광고 메시지에 속아
+        </div>
+
         <div>큰 기대를 하고 오시는 분들은 실망하실 수 있습니다</div>
         <div className="hidden sm:block mx-auto w-[545px]  mt-7 bg-[#ef555c] px-5 py-3 font-semibold">
           저는 변호사의 직을 걸고 있는 그대로만 얘기합니다.

@@ -17,15 +17,19 @@ const Section9 = () => {
           </div>
         </div>
         <div className="text-center text-[40px] font-semibold relative">
-          1:1 전담 직원 배정 후,
-          <br /> 언제든지 소통 가능한 카카오톡방 개설
+          <span className="relative z-10">
+            1:1 전담 직원 배정 후,
+            <br /> 언제든지 소통 가능한 카카오톡방 개설
+          </span>
           <div className="w-[610px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-1 left-2"></div>
         </div>
         <div className="w-[980px] h-[650px] rounded-2xl bg-[#f7f7f7] flex items-center justify-center my-20">
           <Image src="/kakao.svg" width={820} height={490}></Image>
         </div>
         <div className="text-[40px] font-semibold text-center relative mb-10">
-          불안할 땐 언제든지 방문상담 가능
+          <span className="relative z-10">
+            불안할 땐 언제든지 방문상담 가능
+          </span>
           <div className="w-[225px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-2 right-1"></div>
         </div>
         <button className="w-[302px] h-[90px] text-[32px] text-white font-semibold flex items-center justify-center bg-[#ef555c] rounded-full cursor-pointer hover:text-[#ef555c] hover:bg-white hover:border-[#ef555c] hover:border mb-20">
@@ -50,16 +54,20 @@ const Section9 = () => {
           </div>
         </div>
         <div className="text-center text-[24px] font-semibold relative">
-          1:1 전담 직원 배정 후,
-          <br /> 언제든지 소통 가능한 <br />
-          카카오톡방 개설
+          <span className="relative z-10">
+            1:1 전담 직원 배정 후,
+            <br /> 언제든지 소통 가능한 <br />
+            카카오톡방 개설
+          </span>
           <div className="w-[156px] h-[5px] bg-[#ffc5c7]/80 absolute bottom-1.5 left-7"></div>
         </div>
         <div className="w-full h-[802px] rounded-2xl bg-[#f7f7f7] flex items-center justify-center my-10">
           <Image src="/kakao_mb.svg" width={343} height={775}></Image>
         </div>
         <div className="text-[24px] font-semibold text-center relative mb-5">
-          불안할 땐<br /> 언제든지 방문상담 가능
+          <span className="relative z-10">
+            불안할 땐<br /> 언제든지 방문상담 가능
+          </span>
           <div className="w-[224px] h-[5px] bg-[#ffc5c7]/80 absolute bottom-1 right-1"></div>
         </div>
         <button className="w-[200px] h-[75px] text-[24px] text-white font-semibold flex items-center justify-center bg-[#ef555c] rounded-full cursor-pointer hover:text-[#ef555c] hover:bg-white hover:border-[#ef555c] hover:border mb-10">

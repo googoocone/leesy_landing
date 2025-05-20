@@ -22,9 +22,12 @@ const Section8 = () => {
             10년간 오직 개인회생/개인파산만 사건을 수임했고, <br />
             5천건의 성공사례, 1만시간 이상을 이 분야에 쏟았습니다.
           </div>
-          <div className="text-[32px] font-semibold text-black mb-5 relative w-full ">
-            의뢰인의 재산 • 지출 • 채무증대원인을 정확히 파악하여,
-            <div className="w-[520px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-1 left-32"></div>
+          <div className="text-[32px] font-semibold text-black mb-5 relative w-full">
+            <span className="relative z-10">
+              의뢰인의 재산 • 지출 • 채무증대원인을 정확히 파악하여,
+            </span>
+
+            <div className="w-[520px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-1 left-32 z-0"></div>
           </div>
           <div className="text-[32px] font-semibold text-[#d81c25] mb-20 text-center">
             의뢰인에게 가장 유리한 변제금과 <br />
@@ -54,8 +57,10 @@ const Section8 = () => {
             최대한 변제율을 줄이는 것이 가장 중요합니다.
           </div>
           <div className="text-[32px] text-center font-semibold text-black mb-5 relative w-full ">
-            보정 과정을 몇번을 거치든 상관없이
-            <br />제 기준에 맞는 변제율이 나올때 까지 회생위원과 대화합니다.
+            <span className="relative z-10">
+              보정 과정을 몇번을 거치든 상관없이
+              <br />제 기준에 맞는 변제율이 나올때 까지 회생위원과 대화합니다.
+            </span>
             <div className="w-[470px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-1 "></div>
           </div>
           <div className="text-[32px] font-semibold text-[#d81c25] mb-20 text-center">
@@ -90,9 +95,11 @@ const Section8 = () => {
             회생위원을 직접 설득하는 것이 굉장히 중요합니다.
           </div>
           <div className="text-[32px] text-center font-semibold text-black mb-20 relative w-[980px] ">
-            기각이 될 사건도 가능하게 만드는 것은
-            <br />
-            변호사의 정성과 노력입니다.
+            <span className="relative z-10">
+              기각이 될 사건도 가능하게 만드는 것은
+              <br />
+              변호사의 정성과 노력입니다.
+            </span>
             <div className="w-[270px] h-[10px] bg-[#ffc5c7]/80 absolute left-[305px] bottom-1 "></div>
           </div>
           <div className="w-full max-w-2xl lg:max-w-3xl mx-auto rounded-lg overflow-hidden shadow-xl border border-gray-200">
@@ -136,8 +143,10 @@ const Section8 = () => {
             <br /> 이 분야에 쏟았습니다.
           </div>
           <div className="text-[18px] text-center font-semibold text-black mb-5 relative w-full ">
-            의뢰인의 재산 • 지출 • 채무증대원인을
-            <br /> 정확히 파악하여,
+            <span className="relative z-10">
+              의뢰인의 재산 • 지출 • 채무증대원인을
+              <br /> 정확히 파악하여,
+            </span>
             <div className="w-[85px] h-[8px] bg-[#ffc5c7]/80 absolute bottom-1 left-33"></div>
           </div>
           <div className="text-[18px] font-semibold text-[#d81c25] mb-10 text-center">
@@ -168,9 +177,11 @@ const Section8 = () => {
             최대한 변제율을 줄이는 것이 가장 중요합니다.
           </div>
           <div className="text-[18px] text-center font-semibold text-black mb-5 relative w-full ">
-            보정 과정을 몇번을 거치든 상관없이
-            <br />제 기준에 맞는 변제율이 나올때 까지
-            <br /> 회생위원과 대화합니다.
+            <span className="relative z-10">
+              보정 과정을 몇번을 거치든 상관없이
+              <br />제 기준에 맞는 변제율이 나올때 까지
+              <br /> 회생위원과 대화합니다.
+            </span>
             <div className="w-[260px] h-[4px] bg-[#ffc5c7]/80 absolute bottom-7.5 left-13 "></div>
           </div>
           <div className="text-[18px] font-semibold text-[#d81c25] mb-10 text-center">
@@ -206,9 +217,11 @@ const Section8 = () => {
             회생위원을 직접 설득하는 것이 굉장히 중요합니다.
           </div>
           <div className="text-[18px] text-center font-semibold text-black mb-10 relative w-full ">
-            기각이 될 사건도 가능하게 만드는 것은
-            <br />
-            변호사의 정성과 노력입니다.
+            <span className="relative z-10">
+              기각이 될 사건도 가능하게 만드는 것은
+              <br />
+              변호사의 정성과 노력입니다.
+            </span>
             <div className="w-[153px] h-[4px] bg-[#ffc5c7]/80 absolute left-[91px] bottom-1 "></div>
           </div>
           <div className="w-full max-w-2xl lg:max-w-3xl mx-auto rounded-lg overflow-hidden shadow-xl border border-gray-200 px-3">
