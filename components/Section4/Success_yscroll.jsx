@@ -12,9 +12,6 @@ const SuccessCaseTable = () => {
   const [isHovering, setIsHovering] = useState(false);
   const gridColsClass = "grid-cols-[1fr_1.5fr_1fr_1.2fr_1.5fr]";
 
-  // isHovering 상태 변경 시 콘솔에 로그 출력 (디버깅용)
-  // console.log("isHovering state:", isHovering);
-
   useEffect(() => {
     const scrollElement = scrollRef.current;
 

@@ -16,7 +16,7 @@ const Section10 = () => {
         </div>
       </div>
       <div className="sm:hidden w-full h-[700px] bg-[#f7f7f7] flex items-center justify-center ">
-        <Image src="/lawyer2_mb.svg" width={377} height={759}></Image>
+        <Image src="/lawyer3_mb.svg" width={377} height={759}></Image>
       </div>
     </>
   );
