@@ -41,7 +41,7 @@ const Section9 = () => {
       </div>
       {/* 모바일 화면 */}
       <div className="sm:hidden w-full h-[2130px] bg-white flex flex-col items-center justify-center">
-        <div className="flex flex-col items-center justify-center mb-20">
+        <div className="flex flex-col items-center justify-center mb-10">
           <div className="text-[18px] font-semibold text-center mb-5">
             탕감률, 월 변제금 못지 않게
             <br />

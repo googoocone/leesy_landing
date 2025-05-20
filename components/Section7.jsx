@@ -13,21 +13,41 @@ import Image from "next/image";
 
 const youtubeData = [
   {
-    url: "https://www.youtube.com/watch?v=Pkw11F4ZCpU&t=98s",
+    url: "https://www.youtube.com/watch?v=Pkw11F4ZCpU",
     img: "/youtube1.jpg",
   },
   { url: "https://www.youtube.com/watch?v=wCX7mlp9c48", img: "/youtube2.jpg" },
   {
-    url: "https://www.youtube.com/watch?v=cMiudoVa-Dk&t=233s",
+    url: "https://www.youtube.com/watch?v=IQYkUliruJA",
     img: "/youtube3.jpg",
   },
   {
-    url: "https://www.youtube.com/watch?v=IQYkUliruJA&t=143s",
+    url: "https://www.youtube.com/watch?v=2fdCzkfuFB4",
     img: "/youtube4.jpg",
   },
   {
-    url: "https://www.youtube.com/watch?v=2fdCzkfuFB4&t=202s",
+    url: "https://www.youtube.com/watch?v=cMiudoVa-Dk",
     img: "/youtube5.png",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=EyY6EgEuowY",
+    img: "/youtube6.png",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=OLfppfGORD8",
+    img: "/youtube7.png",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=Z-nSpI4lROE",
+    img: "/youtube8.png",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=JsKsFwlODAw",
+    img: "/youtube9.png",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=67gvVmYhPd4",
+    img: "/youtube10.png",
   },
 ];
 
@@ -132,9 +152,6 @@ const Section7 = () => {
                     className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                     src={video.img}
                     alt={video.title || "유튜브 영상 썸네일"}
-                    // Next/Image 사용 시 width, height props가 필요할 수 있습니다.
-                    // width={640}
-                    // height={375}
                   />
                 </div>
               </a>
