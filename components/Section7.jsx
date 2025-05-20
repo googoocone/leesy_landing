@@ -31,23 +31,23 @@ const youtubeData = [
   },
   {
     url: "https://www.youtube.com/watch?v=EyY6EgEuowY",
-    img: "/youtube6.png",
+    img: "/youtube6.jpg",
   },
   {
     url: "https://www.youtube.com/watch?v=OLfppfGORD8",
-    img: "/youtube7.png",
+    img: "/youtube7.jpg",
   },
   {
     url: "https://www.youtube.com/watch?v=Z-nSpI4lROE",
-    img: "/youtube8.png",
+    img: "/youtube8.jpg",
   },
   {
     url: "https://www.youtube.com/watch?v=JsKsFwlODAw",
-    img: "/youtube9.png",
+    img: "/youtube9.jpg",
   },
   {
     url: "https://www.youtube.com/watch?v=67gvVmYhPd4",
-    img: "/youtube10.png",
+    img: "/youtube10.jpg",
   },
 ];
 
