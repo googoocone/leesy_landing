@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // 1. 각 지역별 평균 탕감률 데이터 구조화
 const REPAYMENT_RATES_DATA = {
-  전국: { nationwide: "51.20%", standard: "51.20%", label: "전국" },
+  전국: { nationwide: "51.20%", standard: "61.44%", label: "전국" },
   수원회생법원: { nationwide: "46.9%", standard: "64.3%", label: "수원" },
   서울회생법원: { nationwide: "54.3%", standard: "67.91%", label: "서울" },
   대전지방법원: { nationwide: "57.9%", standard: "60.24%", label: "대전" },
@@ -123,7 +123,7 @@ const Section5 = () => {
         </div>
         <div className="w-full h-full flex sm:flex-row flex-col  sm:px-[116px] items-center justify-center gap-5">
           {/* 데스크탑 */}
-          <div className="hidden w-[230px] h-[500px] mb-20 sm:flex flex-row sm:flex-col items-center justify-center">
+          <div className="hidden w-[250px] h-[500px] mb-20 sm:flex flex-row sm:flex-col items-center justify-center">
             <div className="text-[24px] text-center ">
               {courtData.label} 법원
               <br /> 평균 탕감률
@@ -133,7 +133,7 @@ const Section5 = () => {
             </div>
             <div className="px-10 w-full h-[1px] border-black bg-black my-10"></div>
             <div className="text-[24px] text-[#D81C25] text-center">
-              이서영변호사 <br /> 평균 탕감률
+              법무법인 스탠다드 <br /> 평균 탕감률
             </div>
             <div className="text-[40px] font-semibold text-[#D81C25]">
               {courtData.standard}
@@ -457,7 +457,7 @@ const Section5 = () => {
             <div className="w-[1px] h-[80px] bg-black mx-10"> </div>
             <div>
               <div className="text-[16px] text-[#D81C25] text-center">
-                이서영변호사 <br /> 평균 탕감률
+                법무법인 스탠다드 <br /> 평균 탕감률
               </div>
               <div className="text-[32px] font-semibold text-[#D81C25]">
                 {courtData.standard}
