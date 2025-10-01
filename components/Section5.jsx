@@ -133,7 +133,7 @@ const Section5 = () => {
             </div>
             <div className="px-10 w-full h-[1px] border-black bg-black my-10"></div>
             <div className="text-[24px] text-[#D81C25] text-center">
-              법무법인 스탠다드 <br /> 평균 탕감률
+              이서영 변호사 <br /> 평균 탕감률
             </div>
             <div className="text-[40px] font-semibold text-[#D81C25]">
               {courtData.standard}
@@ -457,7 +457,7 @@ const Section5 = () => {
             <div className="w-[1px] h-[80px] bg-black mx-10"> </div>
             <div>
               <div className="text-[16px] text-[#D81C25] text-center">
-                법무법인 스탠다드 <br /> 평균 탕감률
+                이서영 변호사 <br /> 평균 탕감률
               </div>
               <div className="text-[32px] font-semibold text-[#D81C25]">
                 {courtData.standard}
