@@ -1,6 +1,6 @@
 export const success = [
   {
-    date: "2025-05-15",
+    date: "2025-09-15",
     court: "수원회생법원",
     name: "윤00",
     decision: "인가결정",
@@ -8,7 +8,7 @@ export const success = [
     repaymentRate: "60.48%",
   },
   {
-    date: "2025-05-14",
+    date: "2025-09-14",
     court: "광주지방법원",
     name: "정00",
     decision: "인가결정",
@@ -16,7 +16,7 @@ export const success = [
     repaymentRate: "48.27%",
   },
   {
-    date: "2025-05-14",
+    date: "2025-09-14",
     court: "수원회생법원",
     name: "정00",
     decision: "인가결정",
@@ -24,7 +24,7 @@ export const success = [
     repaymentRate: "34.71%",
   },
   {
-    date: "2025-05-14",
+    date: "2025-09-14",
     court: "수원회생법원",
     name: "윤00",
     decision: "인가결정",
@@ -32,7 +32,7 @@ export const success = [
     repaymentRate: "60.85%",
   },
   {
-    date: "2025-05-13",
+    date: "2025-09-13",
     court: "대구지방법원",
     name: "박00",
     decision: "인가결정",
@@ -40,15 +40,15 @@ export const success = [
     repaymentRate: "67.01%",
   },
   {
-    date: "2025-05-13",
+    date: "2025-09-13",
     court: "청주지방법원",
     name: "전00",
     decision: "인가결정",
-    repaymentAmount: "787,056",
+    repaymentAmount: "787,096",
     repaymentRate: "59.59%",
   },
   {
-    date: "2025-05-12",
+    date: "2025-09-12",
     court: "수원회생법원",
     name: "권00",
     decision: "인가결정",
@@ -56,7 +56,7 @@ export const success = [
     repaymentRate: "68.10%",
   },
   {
-    date: "2025-05-12",
+    date: "2025-09-12",
     court: "전주지방법원",
     name: "신00",
     decision: "인가결정",
@@ -64,7 +64,7 @@ export const success = [
     repaymentRate: "43.23%",
   },
   {
-    date: "2025-05-12",
+    date: "2025-09-12",
     court: "수원지방법원",
     name: "서00",
     decision: "인가결정",
@@ -72,7 +72,7 @@ export const success = [
     repaymentRate: "84.42%",
   },
   {
-    date: "2025-05-12",
+    date: "2025-09-12",
     court: "춘천지방법원",
     name: "정00",
     decision: "인가결정",
@@ -80,7 +80,7 @@ export const success = [
     repaymentRate: "49.09%",
   },
   {
-    date: "2025-05-12",
+    date: "2025-09-12",
     court: "수원회생법원",
     name: "한00",
     decision: "인가결정",
@@ -88,23 +88,23 @@ export const success = [
     repaymentRate: "49.44%",
   },
   {
-    date: "2025-05-11",
+    date: "2025-09-11",
     court: "광주지방법원",
     name: "장00",
     decision: "인가결정",
-    repaymentAmount: "905,633",
+    repaymentAmount: "909,633",
     repaymentRate: "41.40%",
   },
   {
-    date: "2025-05-11",
+    date: "2025-09-11",
     court: "수원회생법원",
     name: "박00",
     decision: "인가결정",
-    repaymentAmount: "804,421",
+    repaymentAmount: "808,421",
     repaymentRate: "45.15%",
   },
   {
-    date: "2025-05-11",
+    date: "2025-09-11",
     court: "수원회생법원",
     name: "전00",
     decision: "인가결정",
@@ -112,7 +112,7 @@ export const success = [
     repaymentRate: "49.26%",
   },
   {
-    date: "2025-05-10",
+    date: "2025-09-10",
     court: "서울회생법원",
     name: "이00",
     decision: "인가결정",
@@ -120,7 +120,7 @@ export const success = [
     repaymentRate: "35.26%",
   },
   {
-    date: "2025-05-10",
+    date: "2025-09-10",
     court: "춘천지방법원",
     name: "조00",
     decision: "인가결정",
@@ -128,7 +128,7 @@ export const success = [
     repaymentRate: "81.66%",
   },
   {
-    date: "2025-05-09",
+    date: "2025-09-09",
     court: "서울회생법원",
     name: "박00",
     decision: "인가결정",
@@ -136,7 +136,7 @@ export const success = [
     repaymentRate: "46.16%",
   },
   {
-    date: "2025-05-09",
+    date: "2025-09-09",
     court: "서울회생법원",
     name: "장00",
     decision: "인가결정",
@@ -144,7 +144,7 @@ export const success = [
     repaymentRate: "36.35%",
   },
   {
-    date: "2025-05-09",
+    date: "2025-09-09",
     court: "서울회생법원",
     name: "류00",
     decision: "인가결정",
@@ -152,7 +152,7 @@ export const success = [
     repaymentRate: "80.17%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "서울회생법원",
     name: "권00",
     decision: "인가결정",
@@ -160,7 +160,7 @@ export const success = [
     repaymentRate: "73.54%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "대구지방법원",
     name: "한00",
     decision: "인가결정",
@@ -168,7 +168,7 @@ export const success = [
     repaymentRate: "31.39%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "인천지방법원",
     name: "최00",
     decision: "인가결정",
@@ -176,7 +176,7 @@ export const success = [
     repaymentRate: "52.56%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "전주지방법원",
     name: "송00",
     decision: "인가결정",
@@ -184,7 +184,7 @@ export const success = [
     repaymentRate: "51.52%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "인천지방법원",
     name: "임00",
     decision: "인가결정",
@@ -192,7 +192,7 @@ export const success = [
     repaymentRate: "76.29%",
   },
   {
-    date: "2025-05-08",
+    date: "2025-09-08",
     court: "서울회생법원",
     name: "정00",
     decision: "인가결정",
@@ -200,7 +200,7 @@ export const success = [
     repaymentRate: "44.16%",
   },
   {
-    date: "2025-05-07",
+    date: "2025-09-07",
     court: "전주지방법원",
     name: "서00",
     decision: "인가결정",
@@ -208,7 +208,7 @@ export const success = [
     repaymentRate: "83.85%",
   },
   {
-    date: "2025-05-07",
+    date: "2025-09-07",
     court: "전주지방법원",
     name: "권00",
     decision: "인가결정",
@@ -216,7 +216,7 @@ export const success = [
     repaymentRate: "34.17%",
   },
   {
-    date: "2025-05-07",
+    date: "2025-09-07",
     court: "서울회생법원",
     name: "장00",
     decision: "인가결정",
@@ -224,7 +224,7 @@ export const success = [
     repaymentRate: "78.70%",
   },
   {
-    date: "2025-05-07",
+    date: "2025-09-07",
     court: "춘천지방법원",
     name: "최00",
     decision: "인가결정",
@@ -232,7 +232,7 @@ export const success = [
     repaymentRate: "42.60%",
   },
   {
-    date: "2025-05-06",
+    date: "2025-09-06",
     court: "부산지방법원",
     name: "오00",
     decision: "인가결정",
@@ -240,7 +240,7 @@ export const success = [
     repaymentRate: "33.15%",
   },
   {
-    date: "2025-05-06",
+    date: "2025-09-06",
     court: "수원지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -248,7 +248,7 @@ export const success = [
     repaymentRate: "79.70%",
   },
   {
-    date: "2025-05-06",
+    date: "2025-09-06",
     court: "서울회생법원",
     name: "한00",
     decision: "인가결정",
@@ -256,15 +256,15 @@ export const success = [
     repaymentRate: "69.21%",
   },
   {
-    date: "2025-05-05",
+    date: "2025-09-09",
     court: "수원지방법원",
     name: "임00",
     decision: "인가결정",
-    repaymentAmount: "1,705,403",
+    repaymentAmount: "1,709,403",
     repaymentRate: "30.60%",
   },
   {
-    date: "2025-05-05",
+    date: "2025-09-09",
     court: "울산지방법원",
     name: "최00",
     decision: "인가결정",
@@ -272,7 +272,7 @@ export const success = [
     repaymentRate: "56.46%",
   },
   {
-    date: "2025-05-05",
+    date: "2025-09-09",
     court: "서울회생법원",
     name: "윤00",
     decision: "인가결정",
@@ -280,7 +280,7 @@ export const success = [
     repaymentRate: "78.82%",
   },
   {
-    date: "2025-05-05",
+    date: "2025-09-09",
     court: "부산지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -288,7 +288,7 @@ export const success = [
     repaymentRate: "46.27%",
   },
   {
-    date: "2025-05-05",
+    date: "2025-09-09",
     court: "서울회생법원",
     name: "권00",
     decision: "인가결정",
@@ -296,7 +296,7 @@ export const success = [
     repaymentRate: "84.91%",
   },
   {
-    date: "2025-05-04",
+    date: "2025-09-08",
     court: "대전지방법원",
     name: "조00",
     decision: "인가결정",
@@ -304,7 +304,7 @@ export const success = [
     repaymentRate: "84.22%",
   },
   {
-    date: "2025-05-04",
+    date: "2025-09-08",
     court: "서울회생법원",
     name: "전00",
     decision: "인가결정",
@@ -312,7 +312,7 @@ export const success = [
     repaymentRate: "47.02%",
   },
   {
-    date: "2025-05-04",
+    date: "2025-09-08",
     court: "서울회생법원",
     name: "강00",
     decision: "인가결정",
@@ -320,7 +320,7 @@ export const success = [
     repaymentRate: "36.13%",
   },
   {
-    date: "2025-05-03",
+    date: "2025-09-03",
     court: "서울회생법원",
     name: "오00",
     decision: "인가결정",
@@ -328,7 +328,7 @@ export const success = [
     repaymentRate: "60.28%",
   },
   {
-    date: "2025-05-03",
+    date: "2025-09-03",
     court: "제주지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -336,7 +336,7 @@ export const success = [
     repaymentRate: "59.08%",
   },
   {
-    date: "2025-05-03",
+    date: "2025-09-03",
     court: "서울회생법원",
     name: "서00",
     decision: "인가결정",
@@ -344,7 +344,7 @@ export const success = [
     repaymentRate: "74.13%",
   },
   {
-    date: "2025-05-02",
+    date: "2025-09-02",
     court: "대전지방법원",
     name: "류00",
     decision: "인가결정",
@@ -352,7 +352,7 @@ export const success = [
     repaymentRate: "58.84%",
   },
   {
-    date: "2025-05-01",
+    date: "2025-09-01",
     court: "인천지방법원",
     name: "안00",
     decision: "인가결정",
@@ -360,7 +360,7 @@ export const success = [
     repaymentRate: "36.73%",
   },
   {
-    date: "2025-05-01",
+    date: "2025-09-01",
     court: "춘천지방법원",
     name: "안00",
     decision: "인가결정",
@@ -368,7 +368,7 @@ export const success = [
     repaymentRate: "32.37%",
   },
   {
-    date: "2025-05-01",
+    date: "2025-09-01",
     court: "서울회생법원",
     name: "신00",
     decision: "인가결정",
@@ -376,7 +376,7 @@ export const success = [
     repaymentRate: "73.29%",
   },
   {
-    date: "2025-05-01",
+    date: "2025-09-01",
     court: "제주지방법원",
     name: "최00",
     decision: "인가결정",
@@ -384,7 +384,7 @@ export const success = [
     repaymentRate: "31.16%",
   },
   {
-    date: "2025-05-01",
+    date: "2025-09-01",
     court: "서울회생법원",
     name: "서00",
     decision: "인가결정",
@@ -392,7 +392,7 @@ export const success = [
     repaymentRate: "82.50%",
   },
   {
-    date: "2025-04-30",
+    date: "2025-08-30",
     court: "대구지방법원",
     name: "류00",
     decision: "인가결정",
@@ -400,7 +400,7 @@ export const success = [
     repaymentRate: "56.07%",
   },
   {
-    date: "2025-04-30",
+    date: "2025-08-30",
     court: "부산지방법원",
     name: "전00",
     decision: "인가결정",
@@ -408,7 +408,7 @@ export const success = [
     repaymentRate: "45.42%",
   },
   {
-    date: "2025-04-30",
+    date: "2025-08-30",
     court: "춘천지방법원",
     name: "박00",
     decision: "인가결정",
@@ -416,15 +416,15 @@ export const success = [
     repaymentRate: "54.56%",
   },
   {
-    date: "2025-04-29",
+    date: "2025-08-29",
     court: "인천지방법원",
     name: "윤00",
     decision: "인가결정",
-    repaymentAmount: "1,047,467",
+    repaymentAmount: "1,087,467",
     repaymentRate: "66.13%",
   },
   {
-    date: "2025-04-29",
+    date: "2025-08-29",
     court: "춘천지방법원",
     name: "송00",
     decision: "인가결정",
@@ -432,7 +432,7 @@ export const success = [
     repaymentRate: "43.08%",
   },
   {
-    date: "2025-04-28",
+    date: "2025-08-28",
     court: "수원지방법원",
     name: "송00",
     decision: "인가결정",
@@ -440,7 +440,7 @@ export const success = [
     repaymentRate: "46.95%",
   },
   {
-    date: "2025-04-28",
+    date: "2025-08-28",
     court: "제주지방법원",
     name: "이00",
     decision: "인가결정",
@@ -448,7 +448,7 @@ export const success = [
     repaymentRate: "50.79%",
   },
   {
-    date: "2025-04-28",
+    date: "2025-08-28",
     court: "전주지방법원",
     name: "이00",
     decision: "인가결정",
@@ -456,7 +456,7 @@ export const success = [
     repaymentRate: "84.72%",
   },
   {
-    date: "2025-04-28",
+    date: "2025-08-28",
     court: "춘천지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -464,7 +464,7 @@ export const success = [
     repaymentRate: "59.52%",
   },
   {
-    date: "2025-04-27",
+    date: "2025-08-27",
     court: "춘천지방법원",
     name: "권00",
     decision: "인가결정",
@@ -472,7 +472,7 @@ export const success = [
     repaymentRate: "66.89%",
   },
   {
-    date: "2025-04-27",
+    date: "2025-08-27",
     court: "청주지방법원",
     name: "서00",
     decision: "인가결정",
@@ -480,7 +480,7 @@ export const success = [
     repaymentRate: "32.44%",
   },
   {
-    date: "2025-04-27",
+    date: "2025-08-27",
     court: "제주지방법원",
     name: "임00",
     decision: "인가결정",
@@ -488,7 +488,7 @@ export const success = [
     repaymentRate: "54.02%",
   },
   {
-    date: "2025-04-27",
+    date: "2025-08-27",
     court: "전주지방법원",
     name: "신00",
     decision: "인가결정",
@@ -496,15 +496,15 @@ export const success = [
     repaymentRate: "37.88%",
   },
   {
-    date: "2025-04-27",
+    date: "2025-08-27",
     court: "대전지방법원",
     name: "강00",
     decision: "인가결정",
     repaymentAmount: "853,521",
-    repaymentRate: "73.04%",
+    repaymentRate: "73.08%",
   },
   {
-    date: "2025-04-26",
+    date: "2025-08-26",
     court: "대구지방법원",
     name: "류00",
     decision: "인가결정",
@@ -512,7 +512,7 @@ export const success = [
     repaymentRate: "38.83%",
   },
   {
-    date: "2025-04-26",
+    date: "2025-08-26",
     court: "대전지방법원",
     name: "권00",
     decision: "인가결정",
@@ -520,7 +520,7 @@ export const success = [
     repaymentRate: "50.35%",
   },
   {
-    date: "2025-04-26",
+    date: "2025-08-26",
     court: "부산지방법원",
     name: "임00",
     decision: "인가결정",
@@ -528,7 +528,7 @@ export const success = [
     repaymentRate: "51.11%",
   },
   {
-    date: "2025-04-26",
+    date: "2025-08-26",
     court: "청주지방법원",
     name: "황00",
     decision: "인가결정",
@@ -536,7 +536,7 @@ export const success = [
     repaymentRate: "30.56%",
   },
   {
-    date: "2025-04-25",
+    date: "2025-08-25",
     court: "대구지방법원",
     name: "이00",
     decision: "인가결정",
@@ -544,7 +544,7 @@ export const success = [
     repaymentRate: "40.86%",
   },
   {
-    date: "2025-04-25",
+    date: "2025-08-25",
     court: "울산지방법원",
     name: "임00",
     decision: "인가결정",
@@ -552,7 +552,7 @@ export const success = [
     repaymentRate: "46.43%",
   },
   {
-    date: "2025-04-25",
+    date: "2025-08-25",
     court: "광주지방법원",
     name: "송00",
     decision: "인가결정",
@@ -560,7 +560,7 @@ export const success = [
     repaymentRate: "64.74%",
   },
   {
-    date: "2025-04-25",
+    date: "2025-08-25",
     court: "수원지방법원",
     name: "서00",
     decision: "인가결정",
@@ -568,7 +568,7 @@ export const success = [
     repaymentRate: "55.34%",
   },
   {
-    date: "2025-04-24",
+    date: "2025-08-24",
     court: "수원지방법원",
     name: "임00",
     decision: "인가결정",
@@ -576,7 +576,7 @@ export const success = [
     repaymentRate: "62.94%",
   },
   {
-    date: "2025-04-23",
+    date: "2025-08-23",
     court: "수원지방법원",
     name: "류00",
     decision: "인가결정",
@@ -584,7 +584,7 @@ export const success = [
     repaymentRate: "70.30%",
   },
   {
-    date: "2025-04-23",
+    date: "2025-08-23",
     court: "광주지방법원",
     name: "박00",
     decision: "인가결정",
@@ -592,7 +592,7 @@ export const success = [
     repaymentRate: "39.51%",
   },
   {
-    date: "2025-04-22",
+    date: "2025-08-22",
     court: "춘천지방법원",
     name: "김00",
     decision: "인가결정",
@@ -600,7 +600,7 @@ export const success = [
     repaymentRate: "34.92%",
   },
   {
-    date: "2025-04-22",
+    date: "2025-08-22",
     court: "춘천지방법원",
     name: "조00",
     decision: "인가결정",
@@ -608,7 +608,7 @@ export const success = [
     repaymentRate: "60.81%",
   },
   {
-    date: "2025-04-22",
+    date: "2025-08-22",
     court: "제주지방법원",
     name: "황00",
     decision: "인가결정",
@@ -616,7 +616,7 @@ export const success = [
     repaymentRate: "47.51%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "제주지방법원",
     name: "안00",
     decision: "인가결정",
@@ -624,7 +624,7 @@ export const success = [
     repaymentRate: "85.99%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "대전지방법원",
     name: "안00",
     decision: "인가결정",
@@ -632,7 +632,7 @@ export const success = [
     repaymentRate: "45.23%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "광주지방법원",
     name: "황00",
     decision: "인가결정",
@@ -640,7 +640,7 @@ export const success = [
     repaymentRate: "56.01%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "춘천지방법원",
     name: "이00",
     decision: "인가결정",
@@ -648,7 +648,7 @@ export const success = [
     repaymentRate: "61.82%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "부산지방법원",
     name: "윤00",
     decision: "인가결정",
@@ -656,7 +656,7 @@ export const success = [
     repaymentRate: "38.54%",
   },
   {
-    date: "2025-04-21",
+    date: "2025-08-21",
     court: "춘천지방법원",
     name: "강00",
     decision: "인가결정",
@@ -664,15 +664,15 @@ export const success = [
     repaymentRate: "54.46%",
   },
   {
-    date: "2025-04-20",
+    date: "2025-08-20",
     court: "인천지방법원",
     name: "송00",
     decision: "인가결정",
-    repaymentAmount: "2,048,361",
+    repaymentAmount: "2,088,361",
     repaymentRate: "47.08%",
   },
   {
-    date: "2025-04-20",
+    date: "2025-08-20",
     court: "수원지방법원",
     name: "안00",
     decision: "인가결정",
@@ -680,7 +680,7 @@ export const success = [
     repaymentRate: "45.08%",
   },
   {
-    date: "2025-04-20",
+    date: "2025-08-20",
     court: "전주지방법원",
     name: "황00",
     decision: "인가결정",
@@ -688,7 +688,7 @@ export const success = [
     repaymentRate: "44.30%",
   },
   {
-    date: "2025-04-20",
+    date: "2025-08-20",
     court: "제주지방법원",
     name: "한00",
     decision: "인가결정",
@@ -696,7 +696,7 @@ export const success = [
     repaymentRate: "72.52%",
   },
   {
-    date: "2025-04-20",
+    date: "2025-08-20",
     court: "인천지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -704,7 +704,7 @@ export const success = [
     repaymentRate: "31.92%",
   },
   {
-    date: "2025-04-19",
+    date: "2025-08-19",
     court: "대구지방법원",
     name: "임00",
     decision: "인가결정",
@@ -712,7 +712,7 @@ export const success = [
     repaymentRate: "30.95%",
   },
   {
-    date: "2025-04-18",
+    date: "2025-08-18",
     court: "춘천지방법원",
     name: "강00",
     decision: "인가결정",
@@ -720,7 +720,7 @@ export const success = [
     repaymentRate: "40.17%",
   },
   {
-    date: "2025-04-18",
+    date: "2025-08-18",
     court: "전주지방법원",
     name: "홍00",
     decision: "인가결정",
@@ -728,7 +728,7 @@ export const success = [
     repaymentRate: "49.48%",
   },
   {
-    date: "2025-04-18",
+    date: "2025-08-18",
     court: "서울회생법원",
     name: "안00",
     decision: "인가결정",
@@ -736,7 +736,7 @@ export const success = [
     repaymentRate: "75.60%",
   },
   {
-    date: "2025-04-18",
+    date: "2025-08-18",
     court: "대구지방법원",
     name: "전00",
     decision: "인가결정",
@@ -744,7 +744,7 @@ export const success = [
     repaymentRate: "60.68%",
   },
   {
-    date: "2025-04-18",
+    date: "2025-08-18",
     court: "제주지방법원",
     name: "황00",
     decision: "인가결정",
@@ -752,7 +752,7 @@ export const success = [
     repaymentRate: "71.60%",
   },
   {
-    date: "2025-04-17",
+    date: "2025-08-17",
     court: "부산지방법원",
     name: "황00",
     decision: "인가결정",
@@ -760,7 +760,7 @@ export const success = [
     repaymentRate: "71.12%",
   },
   {
-    date: "2025-04-17",
+    date: "2025-08-17",
     court: "전주지방법원",
     name: "오00",
     decision: "인가결정",
@@ -768,7 +768,7 @@ export const success = [
     repaymentRate: "39.44%",
   },
   {
-    date: "2025-04-17",
+    date: "2025-08-17",
     court: "울산지방법원",
     name: "오00",
     decision: "인가결정",
@@ -776,7 +776,7 @@ export const success = [
     repaymentRate: "68.89%",
   },
   {
-    date: "2025-04-17",
+    date: "2025-08-17",
     court: "전주지방법원",
     name: "류00",
     decision: "인가결정",
@@ -784,7 +784,7 @@ export const success = [
     repaymentRate: "36.03%",
   },
   {
-    date: "2025-04-16",
+    date: "2025-08-16",
     court: "춘천지방법원",
     name: "권00",
     decision: "인가결정",
@@ -792,7 +792,7 @@ export const success = [
     repaymentRate: "73.09%",
   },
   {
-    date: "2025-04-16",
+    date: "2025-08-16",
     court: "부산지방법원",
     name: "전00",
     decision: "인가결정",
