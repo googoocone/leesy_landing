@@ -19,7 +19,7 @@ const Header = () => {
         alt="법률사무소 우인 로고"
       ></Image> */}
       <button className="px-3 py-1.5 sm:px-5 sm:py-2 rounded-full text-md sm:text-lg bg-[#b73d24] text-white cursor-pointer hover:font-semibold">
-        상담전화 : 1899-7754
+        상담전화 : 1899-1440
       </button>
     </div>
   );
