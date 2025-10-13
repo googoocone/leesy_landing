@@ -128,28 +128,6 @@ const Slide_mb = () => {
           ></Image>
         </div>
       </SwiperSlide>
-      <SwiperSlide>
-        <div className="flex items-center justify-center h-full text-2xl">
-          <Image
-            className="shadow-lg rounded-md"
-            src="/success10.png"
-            width={479}
-            height={664}
-            alt="성공 사례 10"
-          ></Image>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="flex items-center justify-center h-full text-2xl">
-          <Image
-            className="shadow-lg rounded-md"
-            src="/success11.png"
-            width={479}
-            height={664}
-            alt="성공 사례 11"
-          ></Image>
-        </div>
-      </SwiperSlide>
     </Swiper>
   );
 };
