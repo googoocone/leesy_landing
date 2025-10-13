@@ -12,7 +12,7 @@ const Section1 = () => {
         poster="/preview.png"
       >
         <source
-          src="/Section1_mv.mp4"
+          src="/Section_mv.mp4"
           type="video/mp4"
           media="(max-width: 768px)"
         />
