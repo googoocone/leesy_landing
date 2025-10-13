@@ -13,41 +13,21 @@ import Image from "next/image";
 
 const youtubeData = [
   {
-    url: "https://www.youtube.com/watch?v=Pkw11F4ZCpU",
+    url: "https://www.youtube.com/watch?v=EbDw6EyNyZU",
     img: "/youtube1.jpg",
   },
-  { url: "https://www.youtube.com/watch?v=wCX7mlp9c48", img: "/youtube2.jpg" },
+  { url: "https://www.youtube.com/watch?v=fLeVeA5ejT0", img: "/youtube2.jpg" },
   {
-    url: "https://www.youtube.com/watch?v=IQYkUliruJA",
+    url: "https://www.youtube.com/watch?v=54EozV88-Wk",
     img: "/youtube3.jpg",
   },
   {
-    url: "https://www.youtube.com/watch?v=2fdCzkfuFB4",
-    img: "/youtube4.jpg",
+    url: "https://www.youtube.com/watch?v=eRZaZGe7tVA",
+    img: "/youtube4.png",
   },
   {
-    url: "https://www.youtube.com/watch?v=cMiudoVa-Dk",
+    url: "https://www.youtube.com/watch?v=T3u0nmVN8wA",
     img: "/youtube5.png",
-  },
-  {
-    url: "https://www.youtube.com/watch?v=EyY6EgEuowY",
-    img: "/youtube6.jpg",
-  },
-  {
-    url: "https://www.youtube.com/watch?v=OLfppfGORD8",
-    img: "/youtube7.jpg",
-  },
-  {
-    url: "https://www.youtube.com/watch?v=Z-nSpI4lROE",
-    img: "/youtube8.jpg",
-  },
-  {
-    url: "https://www.youtube.com/watch?v=JsKsFwlODAw",
-    img: "/youtube9.jpg",
-  },
-  {
-    url: "https://www.youtube.com/watch?v=67gvVmYhPd4",
-    img: "/youtube10.jpg",
   },
 ];
 

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const Section9 = () => {
   return (
@@ -32,9 +33,11 @@ const Section9 = () => {
           </span>
           <div className="w-[225px] h-[10px] bg-[#ffc5c7]/80 absolute bottom-2 right-1"></div>
         </div>
-        <button className="w-[302px] h-[90px] text-[32px] text-white font-semibold flex items-center justify-center bg-[#ef555c] rounded-full cursor-pointer hover:text-[#ef555c] hover:bg-white hover:border-[#ef555c] hover:border mb-20">
-          방문상담 예약
-        </button>
+        <Link href="https://map.naver.com/p/entry/place/1805344577?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=127.0602549&lat=37.2874971&c=15.00,0,0,0,dh">
+          <button className="w-[302px] h-[90px] text-[32px] text-white font-semibold flex items-center justify-center bg-[#ef555c] rounded-full cursor-pointer hover:text-[#ef555c] hover:bg-white hover:border-[#ef555c] hover:border mb-20">
+            방문상담 예약
+          </button>
+        </Link>
         <div className="w-[980px] h-[370px] relative">
           <Image src="/consult.svg" width={980} height={370}></Image>
         </div>
