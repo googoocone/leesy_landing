@@ -71,7 +71,7 @@ const Section8 = () => {
               <iframe
                 width="766"
                 height="430"
-                src="https://www.youtube.com/embed/Qh6QAuQFRVo?si=2L3N766JqVIdF-dH"
+                src="https://www.youtube.com/embed/T3u0nmVN8wA"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -107,7 +107,7 @@ const Section8 = () => {
               <iframe
                 width="766"
                 height="430"
-                src="https://www.youtube.com/embed/gaOU8pp5bTk?si=KRE2B76TWizBn-cc&amp;start=54"
+                src="https://www.youtube.com/embed/eRZaZGe7tVA"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

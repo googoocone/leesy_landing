@@ -12,11 +12,11 @@ const Section1 = () => {
         poster="/preview.png"
       >
         <source
-          src="/Section_mv.mp4"
+          src="/main_mv.mp4"
           type="video/mp4"
           media="(max-width: 768px)"
         />
-        <source src="/Section1_mv.mp4" type="video/mp4" />
+        <source src="/main_mv.mp4" type="video/mp4" />
         브라우저가 비디오를 지원하지 않습니다.
       </video>
     </section>
