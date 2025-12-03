@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   // GTM ID를 변수로 관리하면 편리합니다.
-  const gtmId = "GTM-M9KFKK4K";
+  const gtmId = "GTM-584MVPKD";
 
   return (
     <html lang="en">
@@ -37,6 +37,7 @@ export default function RootLayout({ children }) {
         <Footer></Footer>
 
         {/* Google Tag Manager */}
+
         <Script id="gtm-script" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
